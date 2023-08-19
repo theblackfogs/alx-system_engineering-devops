@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR
+C=${PATH//[^:]};echo  $((${#C}+1))
