@@ -1,2 +1,2 @@
 #!/bin/bash
-C=${PATH//[^:]};echo  $((${#C}+1))
+echo $APTH | tr ':' '\n' | wc -l
